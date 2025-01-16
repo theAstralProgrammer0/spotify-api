@@ -1,0 +1,22 @@
+{
+  "name": "spotify-api",
+  "version": "1.0.0",
+  "description": "This project provides a simple API endpoint that allows you to customize the background and border colors for a Spotify integration (or any other use case you prefer).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "start": "vercel start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.2.29"
+  }
+}
